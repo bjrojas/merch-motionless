@@ -1,0 +1,227 @@
+body{
+    background-image: url(../img/fondo.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .header .navbar{
+    z-index: 900;
+    }
+    .header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    }
+    .header video{    
+    width: 100%;
+    z-index: 100;
+    }
+    .absolute{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    }
+    .bg-dark{
+    background: transparent!important;
+    }
+    .navbar .nav-link {
+    color: white!important;
+    transition: all .5s ease;
+    }
+    .navbar .nav-link:hover{
+    color: #e61010!important;
+    text-shadow: 0 0 10px #e61010, 0 0 40px #e61010, 0 0 80px #e61010;
+    }
+    #img{
+    height: 3.4rem;   
+    }
+    #img:hover{
+    content: url('../img/logo7.png');
+    height: 3.5rem;  
+    
+    }
+    .collapse .users{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s ease;
+    }
+    .collapse .users:hover{
+    color: rgb(1, 11, 155);
+    }
+    .collapse .dropdown-menu{
+    background-color: transparent!important;
+    }
+    .dropdown-menu a{
+    color: #fff!important;
+    transition: all .5s ease;
+    }
+    .dropdown-menu a:hover{
+    color: #fff!important;
+    background-color: black!important;
+    }
+    .jumbotron{
+      text-align: center;
+      font-size: 50px;
+      }
+      .jumbotron a{
+      cursor: pointer;
+      margin-left: 50px;
+      z-index: 999;
+      }
+      .jumbotron .container a:hover{
+      color: transparent;
+      }
+#carrito{
+    overflow:scroll;
+    height:500px;    
+}
+a .carrito{
+    cursor: pointer;
+}
+#img{
+    height: 3.4rem;   
+  }
+  #img:hover{
+    content: url('../img/logo7.png');
+    height: 3.5rem;  
+    
+  }
+
+  .wrap{
+    width: 100%;
+    max-width: 100%;
+    margin: 30px auto;
+  }
+  ul.tabs{
+    width: 100%;
+    background: #363636;
+    list-style: none;
+    display: flex;
+  }
+  ul.tabs li{
+    width: 100%;
+  }
+  ul.tabs li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    padding: 10px 0px;
+  }
+  ul.tabs li a .tab-text{
+    margin-left: 8px;
+  }
+  .active1{
+    background: #1c2226;
+  }
+  .bg-white{
+    cursor: pointer;
+    background-color: transparent !important;
+    transition: all .5s ease;     
+  }
+  .bg-white:hover{
+    -webkit-box-shadow: 0.5rem 0.9rem 0.5rem rgba(255, 249, 249, 0.5);
+    box-shadow: 0 0.5rem 0.9rem 0.5rem rgba(255, 249, 249, 0.5); 
+  }
+  h1{
+      color: #fff;
+  }
+  h4{
+      color: #fff;
+  }
+  li{
+      color: #fff;
+  }
+  p{
+      color: #fff;
+  }
+  .bg-white1{
+      background: #0E0909;
+  }
+  #dropdown01{
+      font-size: 30px;
+  }
+  h2{
+      color: #fff;
+  }
+  label{
+      color: #fff;
+  }
+  th{
+      color: #fff;
+  }
+  td{
+      color: #fff;
+  }
+
+  .form-control:focus{
+    box-shadow: 0 0 10px #e7eaed, 0 0 40px #e7eaed, 0 0 80px #e7eaed;
+    color: #fff!important;
+    }
+    .form-control{
+    background: transparent!important;
+    border: 2.5px solid #e7eaed!important;
+    }
+    .form-inline .btn{
+    border: 1px solid #d63038;
+    color: #fff;
+    transition: 0.5s;
+    }
+    .form-inline .btn:hover{
+    background: #d63038;
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 10px #d63038, 0 0 40px #d63038, 0 0 80px #d63038;
+    }
+
+/*Texto animado*/
+  svg {
+    display: block;
+    font: 4em 'MOTIONLESS IN WHITE';
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    font-family: cursive;
+    }
+    
+    .text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+    font-family: cursive;
+    }
+    
+    .text-copy:nth-child(1){
+    stroke: #e9dee6;
+    animation-delay: -1;
+    }
+    
+    .text-copy:nth-child(2){
+    stroke: #161516;
+    animation-delay: -2s;
+    }
+    
+    .text-copy:nth-child(3){
+    stroke: #0d0d0e;
+    animation-delay: -3s;
+    }
+    
+    .text-copy:nth-child(4){
+    stroke: #0d0d0e;
+    animation-delay: -4s;
+    }
+    
+    .text-copy:nth-child(5){
+    stroke: #cccac7;
+    animation-delay: -5s;
+    }
+    
+    @keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+    }
+  
